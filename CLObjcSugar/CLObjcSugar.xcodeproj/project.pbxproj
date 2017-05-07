@@ -29,6 +29,8 @@
 		91438B861EBF4237007B4721 /* UITextField+CLObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 91438B741EBF4237007B4721 /* UITextField+CLObjcSugar.m */; };
 		91438B871EBF4237007B4721 /* UIView+CLObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 91438B761EBF4237007B4721 /* UIView+CLObjcSugar.m */; };
 		91438B881EBF4237007B4721 /* UIViewController+CLObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 91438B781EBF4237007B4721 /* UIViewController+CLObjcSugar.m */; };
+		91438C3A1EBF67DC007B4721 /* UIImageView+CLObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 91438C391EBF67DC007B4721 /* UIImageView+CLObjcSugar.m */; };
+		91438C3D1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 91438C3C1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,7 +64,7 @@
 		91438B691EBF4237007B4721 /* UIColor+CLObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CLObjcSugar.h"; sourceTree = "<group>"; };
 		91438B6A1EBF4237007B4721 /* UIColor+CLObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CLObjcSugar.m"; sourceTree = "<group>"; };
 		91438B6B1EBF4237007B4721 /* UIImage+CLObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CLObjcSugar.h"; sourceTree = "<group>"; };
-		91438B6C1EBF4237007B4721 /* UIImage+CLObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CLObjcSugar.m"; sourceTree = "<group>"; };
+		91438B6C1EBF4237007B4721 /* UIImage+CLObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CLObjcSugar.m"; sourceTree = "<group>"; wrapsLines = 0; };
 		91438B6D1EBF4237007B4721 /* UILabel+CLObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CLObjcSugar.h"; sourceTree = "<group>"; };
 		91438B6E1EBF4237007B4721 /* UILabel+CLObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CLObjcSugar.m"; sourceTree = "<group>"; };
 		91438B6F1EBF4237007B4721 /* UINavigationController+CLObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+CLObjcSugar.h"; sourceTree = "<group>"; };
@@ -75,6 +77,10 @@
 		91438B761EBF4237007B4721 /* UIView+CLObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CLObjcSugar.m"; sourceTree = "<group>"; };
 		91438B771EBF4237007B4721 /* UIViewController+CLObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CLObjcSugar.h"; sourceTree = "<group>"; };
 		91438B781EBF4237007B4721 /* UIViewController+CLObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CLObjcSugar.m"; sourceTree = "<group>"; };
+		91438C381EBF67DC007B4721 /* UIImageView+CLObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CLObjcSugar.h"; sourceTree = "<group>"; };
+		91438C391EBF67DC007B4721 /* UIImageView+CLObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CLObjcSugar.m"; sourceTree = "<group>"; };
+		91438C3B1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+CLObjcSugar.h"; sourceTree = "<group>"; };
+		91438C3C1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CLObjcSugar.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,8 @@
 				91438B6A1EBF4237007B4721 /* UIColor+CLObjcSugar.m */,
 				91438B6B1EBF4237007B4721 /* UIImage+CLObjcSugar.h */,
 				91438B6C1EBF4237007B4721 /* UIImage+CLObjcSugar.m */,
+				91438C381EBF67DC007B4721 /* UIImageView+CLObjcSugar.h */,
+				91438C391EBF67DC007B4721 /* UIImageView+CLObjcSugar.m */,
 				91438B6D1EBF4237007B4721 /* UILabel+CLObjcSugar.h */,
 				91438B6E1EBF4237007B4721 /* UILabel+CLObjcSugar.m */,
 				91438B6F1EBF4237007B4721 /* UINavigationController+CLObjcSugar.h */,
@@ -165,6 +173,8 @@
 				91438B761EBF4237007B4721 /* UIView+CLObjcSugar.m */,
 				91438B771EBF4237007B4721 /* UIViewController+CLObjcSugar.h */,
 				91438B781EBF4237007B4721 /* UIViewController+CLObjcSugar.m */,
+				91438C3B1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.h */,
+				91438C3C1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.m */,
 			);
 			path = ObjcSugar;
 			sourceTree = "<group>";
@@ -247,11 +257,13 @@
 				91438B801EBF4237007B4721 /* UIButton+CLObjcSugar.m in Sources */,
 				91438B7D1EBF4237007B4721 /* NSDate+CLObjcSugar.m in Sources */,
 				91438B7C1EBF4237007B4721 /* NSBundle+CLObjcSugar.m in Sources */,
+				91438C3A1EBF67DC007B4721 /* UIImageView+CLObjcSugar.m in Sources */,
 				91438B7A1EBF4237007B4721 /* NSArray+Log.m in Sources */,
 				91438B481EBF4225007B4721 /* ViewController.m in Sources */,
 				91438B7B1EBF4237007B4721 /* NSAttributedString+CLObjcSugar.m in Sources */,
 				91438B821EBF4237007B4721 /* UIImage+CLObjcSugar.m in Sources */,
 				91438B851EBF4237007B4721 /* UIScreen+CLObjcSugar.m in Sources */,
+				91438C3D1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.m in Sources */,
 				91438B451EBF4225007B4721 /* AppDelegate.m in Sources */,
 				91438B881EBF4237007B4721 /* UIViewController+CLObjcSugar.m in Sources */,
 				91438B811EBF4237007B4721 /* UIColor+CLObjcSugar.m in Sources */,
@@ -420,6 +432,7 @@
 				91438B561EBF4225007B4721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,6 +15,7 @@
 
 #import "UIColor+CLObjcSugar.h"
 #import "UIImage+CLObjcSugar.h"
+#import "UIImageView+CLObjcSugar.h"
 
 #import "NSBundle+CLObjcSugar.h"
 #import "NSDate+CLObjcSugar.h"
@@ -26,3 +27,4 @@
 #import "NSArray+Log.h"
 #import "NSAttributedString+CLObjcSugar.h"
 #import "UIViewController+CLObjcSugar.h"
+#import "UIDevice+CLObjcSugar.h"

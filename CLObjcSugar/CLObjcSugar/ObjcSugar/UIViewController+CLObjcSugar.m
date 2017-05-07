@@ -7,7 +7,10 @@
 //
 
 #import "UIViewController+CLObjcSugar.h"
+#import <objc/runtime.h>
+#import "UIImageView+CLObjcSugar.h"
 
+static const void *GifKey = &GifKey;
 @implementation UIViewController (CLObjcSugar)
 
 /**
@@ -28,5 +31,70 @@
     [childController didMoveToParentViewController:self];
     
 }
+
+-(UIImageView *)cl_gifView {
+    
+    return objc_getAssociatedObject(self, GifKey);
+    
+}
+
+- (void)setCl_gifView:(UIImageView *)cl_gifView {
+    
+    objc_setAssociatedObject(self, GifKey, cl_gifView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+    
+}
+
+/**
+ *  显示GIF加载动画
+ *
+ *  @param images gif图片数组, 不传的话默认是自带的
+ *  @param view   显示在哪个view上, 如果不传默认就是self.view
+ */
+- (void)cl_showGifLoding:(NSArray *)images inView:(UIView *)view {
+    
+    if (!images.count) {
+        images = @[[UIImage imageNamed:@"hold1_60x72"], [UIImage imageNamed:@"hold2_60x72"], [UIImage imageNamed:@"hold3_60x72"]];
+    }
+    UIImageView *gifView = [[UIImageView alloc] init];
+    if (!view) {
+        view = self.view;
+    }
+    [view addSubview:gifView];
+    gifView.center = self.view.center;
+    gifView.frame = CGRectMake(0, 0, 60, 70);
+    
+    self.cl_gifView = gifView;
+    [gifView cl_playGifAnim:images];
+    
+}
+
+/**
+ *  取消GIF加载动画
+ */
+- (void)cl_hideGufLoding {
+    
+    [self.cl_gifView cl_stopGifAnim];
+    self.cl_gifView = nil;
+    
+}
+
+/**
+ *  判断数组是否为空
+ *
+ *  @param array 数组
+ *
+ *  @return yes or no
+ */
+- (BOOL)cl_isNotEmpty:(NSArray *)array {
+    
+    if ([array isKindOfClass:[NSArray class]] && array.count) {
+        return YES;
+    }
+    return NO;
+    
+}
+
+
+
 
 @end

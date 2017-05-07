@@ -1,7 +1,9 @@
-#CLObjcSugar包含OC中几乎所有分类
+#OC中几乎所有分类
 
 > 只需要在你的程序中导入此头文件：#import "CLObjcSugar.h"
+
 >你就可以得到下面所有分类的快捷使用
+
 >欢迎一起增加分类
 
 
@@ -15,6 +17,7 @@
 
 #import "UIColor+CLObjcSugar.h"
 #import "UIImage+CLObjcSugar.h"
+#import "UIImageView+CLObjcSugar.h"
 
 #import "NSBundle+CLObjcSugar.h"
 #import "NSDate+CLObjcSugar.h"
@@ -26,12 +29,14 @@
 #import "NSArray+Log.h"
 #import "NSAttributedString+CLObjcSugar.h"
 #import "UIViewController+CLObjcSugar.h"
+#import "UIDevice+CLObjcSugar.h"
 
 
 ```
 
 
 ## 反馈与建议
+- 微博：[@夜__猫_子](http://weibo.com/u/5022122368)
 - 邮箱：<873456034@qq.com>
 
 ---------

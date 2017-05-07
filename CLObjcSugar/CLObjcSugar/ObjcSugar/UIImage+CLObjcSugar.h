@@ -27,5 +27,25 @@
  */
 - (void)cl_cornerImageWithSize:(CGSize)size fillColor:(UIColor *_Nullable)fillColor completion:(void (^_Nullable)(UIImage * _Nullable image))completion;
 
+/**
+ *  生成一张高斯模糊的图片
+ *
+ *  @param image 原图
+ *  @param blur  模糊程度 (0~1)
+ *
+ *  @return 高斯模糊图片
+ */
++ (UIImage *_Nullable)cl_blurImage:(UIImage *_Nullable)image blur:(CGFloat)blur;
+
+/**
+ *  根据颜色生成一张图片
+ *
+ *  @param color 颜色
+ *  @param size  图片大小
+ *
+ *  @return 图片
+ */
++ (UIImage *_Nullable)cl_imageWithColor:(UIColor *_Nullable)color size:(CGSize)size;
+
 
 @end

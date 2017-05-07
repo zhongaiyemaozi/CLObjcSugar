@@ -1,12 +1,12 @@
-#OC中几乎所有分类
 
-> 只需要在你的程序中导入此头文件：#import "CLObjcSugar.h"
->你就可以得到下面所有分类的快捷使用
->欢迎一起增加分类
+//
+//  CLObjcSugar.h
+//  CLOBJSugar
+//
+//  Created by 夜猫子 on 2017/5/7.
+//  Copyright © 2017年 夜猫子. All rights reserved.
+//
 
-
-###代码块
-``` python
 #import "UIScreen+CLObjcSugar.h"
 #import "UIView+CLObjcSugar.h"
 #import "UILabel+CLObjcSugar.h"
@@ -26,16 +26,3 @@
 #import "NSArray+Log.h"
 #import "NSAttributedString+CLObjcSugar.h"
 #import "UIViewController+CLObjcSugar.h"
-
-
-```
-
-
-## 反馈与建议
-- 微博：[@夜__猫_子](http://weibo.com/u/5022122368)
-- 邮箱：<873456034@qq.com>
-
----------
-感谢阅读这份帮助文档。请点击右上角，点赞并分享。
-
-

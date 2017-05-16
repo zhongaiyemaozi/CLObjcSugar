@@ -31,6 +31,7 @@
 		91438B881EBF4237007B4721 /* UIViewController+CLObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 91438B781EBF4237007B4721 /* UIViewController+CLObjcSugar.m */; };
 		91438C3A1EBF67DC007B4721 /* UIImageView+CLObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 91438C391EBF67DC007B4721 /* UIImageView+CLObjcSugar.m */; };
 		91438C3D1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 91438C3C1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.m */; };
+		91FA8E751ECB0A5500A8FDF2 /* CLEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 91FA8E741ECB0A5500A8FDF2 /* CLEncryption.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,8 @@
 		91438C391EBF67DC007B4721 /* UIImageView+CLObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CLObjcSugar.m"; sourceTree = "<group>"; };
 		91438C3B1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+CLObjcSugar.h"; sourceTree = "<group>"; };
 		91438C3C1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CLObjcSugar.m"; sourceTree = "<group>"; };
+		91FA8E731ECB0A5500A8FDF2 /* CLEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLEncryption.h; sourceTree = "<group>"; };
+		91FA8E741ECB0A5500A8FDF2 /* CLEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLEncryption.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +178,8 @@
 				91438B781EBF4237007B4721 /* UIViewController+CLObjcSugar.m */,
 				91438C3B1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.h */,
 				91438C3C1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.m */,
+				91FA8E731ECB0A5500A8FDF2 /* CLEncryption.h */,
+				91FA8E741ECB0A5500A8FDF2 /* CLEncryption.m */,
 			);
 			path = ObjcSugar;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				91438B881EBF4237007B4721 /* UIViewController+CLObjcSugar.m in Sources */,
 				91438B811EBF4237007B4721 /* UIColor+CLObjcSugar.m in Sources */,
 				91438B7E1EBF4237007B4721 /* NSObject+CLObjcSugar.m in Sources */,
+				91FA8E751ECB0A5500A8FDF2 /* CLEncryption.m in Sources */,
 				91438B871EBF4237007B4721 /* UIView+CLObjcSugar.m in Sources */,
 				91438B7F1EBF4237007B4721 /* NSString+CLObjcSugar.m in Sources */,
 				91438B791EBF4237007B4721 /* NSArray+CLObjcSugar.m in Sources */,

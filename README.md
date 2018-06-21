@@ -13,6 +13,7 @@
 #import "UIView+CLObjcSugar.h"
 #import "UILabel+CLObjcSugar.h"
 #import "UIButton+CLObjcSugar.h"
+#import "UIButton+CLImagePosition.h"
 #import "UITextField+CLObjcSugar.h"
 
 #import "UIColor+CLObjcSugar.h"

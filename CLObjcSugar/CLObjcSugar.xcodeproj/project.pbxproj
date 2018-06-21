@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82A7278420DBA2E80095D08B /* UIButton+CLImagePosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A7278320DBA2E80095D08B /* UIButton+CLImagePosition.m */; };
 		91438B421EBF4225007B4721 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91438B411EBF4225007B4721 /* main.m */; };
 		91438B451EBF4225007B4721 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91438B441EBF4225007B4721 /* AppDelegate.m */; };
 		91438B481EBF4225007B4721 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91438B471EBF4225007B4721 /* ViewController.m */; };
@@ -34,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82A7278220DBA2E80095D08B /* UIButton+CLImagePosition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CLImagePosition.h"; sourceTree = "<group>"; };
+		82A7278320DBA2E80095D08B /* UIButton+CLImagePosition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CLImagePosition.m"; sourceTree = "<group>"; };
 		91438B3D1EBF4225007B4721 /* CLObjcSugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLObjcSugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91438B411EBF4225007B4721 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		91438B431EBF4225007B4721 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -175,6 +178,8 @@
 				91438B781EBF4237007B4721 /* UIViewController+CLObjcSugar.m */,
 				91438C3B1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.h */,
 				91438C3C1EBF6ADF007B4721 /* UIDevice+CLObjcSugar.m */,
+				82A7278220DBA2E80095D08B /* UIButton+CLImagePosition.h */,
+				82A7278320DBA2E80095D08B /* UIButton+CLImagePosition.m */,
 			);
 			path = ObjcSugar;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 				91438B7D1EBF4237007B4721 /* NSDate+CLObjcSugar.m in Sources */,
 				91438B7C1EBF4237007B4721 /* NSBundle+CLObjcSugar.m in Sources */,
 				91438C3A1EBF67DC007B4721 /* UIImageView+CLObjcSugar.m in Sources */,
+				82A7278420DBA2E80095D08B /* UIButton+CLImagePosition.m in Sources */,
 				91438B7A1EBF4237007B4721 /* NSArray+Log.m in Sources */,
 				91438B481EBF4225007B4721 /* ViewController.m in Sources */,
 				91438B7B1EBF4237007B4721 /* NSAttributedString+CLObjcSugar.m in Sources */,
